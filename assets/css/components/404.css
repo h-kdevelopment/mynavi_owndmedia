@@ -1,0 +1,32 @@
+.not_found_wrapper {
+  margin: 8rem 0;
+  text-align: center;
+}
+
+.not_found_title {
+  font-size: 12rem;
+  color: #00374d;
+  font-weight: 500;
+  margin-bottom: -4rem;
+}
+
+.not_found_capution {
+  font-size: 3rem;
+  color: #00374d;
+}
+
+.not_found_text {
+  margin-top: 2rem;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 768px) {
+  .not_found_title {
+    font-size: 8rem;
+    margin-bottom: -2rem;
+  }
+
+  .not_found_capution {
+    font-size: 2rem;
+  }
+}
