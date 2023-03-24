@@ -25,30 +25,35 @@
             <section class="useful_list_wrapper">
                 <div class="useful_list_left">
                     <div class="title_section_1 mt-40"></div>
-                    <ul class="mt-40">
+                    <ul class="mt-40 case_card_items_1">
                         <li class="case_card_primary"></li>
                         <li class="case_card_primary"></li>
                         <li class="case_card_primary"></li>
                     </ul>
+                    <div class="more_case_1"></div>
                     <div class="title_section_2 mt-70"></div>
-                    <ul class="mt-40">
+                    <ul class="mt-40 case_card_items_2">
                         <li class="case_card_primary"></li>
                         <li class="case_card_primary"></li>
                     </ul>
+                    <div class="more_case_2"></div>
                     <div class="title_section_3 mt-70"></div>
-                    <ul class="mt-40">
+                    <ul class="mt-40 case_card_items_3">
                         <li class="case_card_primary"></li>
                         <li class="case_card_primary"></li>
                     </ul>
+                    <div class="more_case_3"></div>
                     <div class="title_section_4 mt-70"></div>
-                    <ul class="mt-40">
+                    <ul class="mt-40 case_card_items_4">
                         <li class="case_card_primary"></li>
                     </ul>
+                    <div class="more_case_4"></div>
                     <div class="title_section_5 mt-70"></div>
-                    <ul class="mt-40">
+                    <ul class="mt-40 case_card_items_5">
                         <li class="case_card_primary"></li>
                         <li class="case_card_primary"></li>
                     </ul>
+                    <div class="more_case_5"></div>
                 </div>
                 <div id="sidebar"></div>
             </section>
@@ -63,7 +68,7 @@
     <!-- jQueryのCDNをmain.jsの直前の記述 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="../assets/js/index.js"></script>
-
+    <script src="/assets/js/components/view_more_btn.js"></script>
     <!-- コンポーネント読み込み用の一時的なjs -->
     <script>
         $(window).on('load', function () {
@@ -82,6 +87,12 @@
             $(".case_card_primary").load("../assets/components/case_card_primary.html");
 
             $("#pagination").load("../assets/components/pagination.html");
+
+            $(".more_case_1").load("/assets/components/btn.html .more_case");
+            $(".more_case_2").load("/assets/components/btn.html .more_case");
+            $(".more_case_3").load("/assets/components/btn.html .more_case");
+            $(".more_case_4").load("/assets/components/btn.html .more_case");
+            $(".more_case_5").load("/assets/components/btn.html .more_case");
         });
     </script>
 

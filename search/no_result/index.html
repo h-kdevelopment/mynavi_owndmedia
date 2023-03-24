@@ -20,7 +20,7 @@
             <div id="comp_title1"></div>
             <!-- コンポーネント -->
             <div class="search_result_wrapper">
-                <p class="search_result_title">｢共働き夫婦｣ ｢ユーザーインタビュー｣ の検索結果</p>
+                <div class="search_result_head"></div>
                 <p class="search_result_no" style="text-align:
                 center; font-size: 24px; font-weight:500;">お探しのページは見つかりませんでした。</p>
             </div>
@@ -62,7 +62,7 @@
             $(".title_section_1").load("/assets/components/title_section.html .article");
 
             $("#breadcrumb").load("/assets/components/breadcrumb.html");
-
+            $(".search_result_head").load("/assets/components/search_result.html");
         });
     </script>
     <!-- /コンポーネント読み込み用の一時的なjs -->

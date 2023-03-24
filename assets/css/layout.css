@@ -222,12 +222,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 2.4rem;
 }
-.search_result_title {
-  font-size: 2.4rem;
-  margin-bottom: 4rem;
-  font-weight: 500;
-}
-
 @media screen and (max-width: 768px) {
   .search_article_items,
   .search_doc_items,
