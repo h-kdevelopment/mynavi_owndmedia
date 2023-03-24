@@ -1,0 +1,35 @@
+.search_result_title {
+  font-weight: 500;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+.search_result_items {
+  margin-bottom: 6rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  line-height: 2;
+}
+.search_result_item {
+  display: flex;
+}
+.search_result_item_text_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.search_result_item_title {
+  font-size: 1.6rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.search_result_item_text {
+  font-size: 1.6rem;
+  margin-left: 0.4rem;
+  white-space: nowrap;
+}
+
+@media screen and (max-width: 480px) {
+  .search_result_items {
+    margin-bottom: 3rem;
+  }
+}
